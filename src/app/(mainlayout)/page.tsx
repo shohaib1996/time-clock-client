@@ -1,9 +1,9 @@
-import Image from "next/image";
+import CheckInPage from "@/components/checkinpage/CheckInPage";
 
 export default function Home() {
   return (
     <div>
-      Hello world
+      <CheckInPage/>
     </div>
   );
 }
